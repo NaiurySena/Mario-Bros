@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+
+    <head>
+
+    <body>
+        <div class="mascara-forms" onclick="CliqueiNaMascara()"></div>
+        
+        </div>  
+         <div class="caixa-cabecalho">
+            <img src="./img/icon.png" alt="logo cabeçalho">
+            <a>Home</a>
+            <a>Nossos Serviços</a>
+            <a onclick="FaleConosco()">Fale conosco</a>
+
+         </div>
+
+        <div class="caixa-mae">
+            <div class="caixa-principal">
+                <img class="logo-mario" src="./Img/logo (1).png" alt="logo do mario">
+                <p>Encanadores Mario & Luigi - Resolvendo seus problemas com Estilo!</p>
+                <p>Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos entupidos ou torneiras que não param de pingar? Não se preocupe porque estamos aqui para salvar o seu dia! 
+                Apresentoa vocês os encanadores mais famosos do Reino dos Cogunelos - Mario & Luigi</p>
+
+                <button onclick="CliqueiNoBotao()">ENTRE EM CONTATO</button>
+            </div>
+
+            <div class="caixa-secundaria">
+                <img class="logo-mario-luigi" src="./Img/mario.png" alt="logo mario e luigi">
+            </div>
+
+        </div>
+
+        <div class="caixa-video">
+            <video src="./Img/video.mp4" autoplay muted loop></video>
+            <div class="mascara"></div>
+        </div>
+
+        <a href="https://api.whatsapp.com/send?phone=5561991308291&text=Ol%C3%A1,%20gostaria%20de%20realizar%20or%C3%A7amento.">
+            <img class="logo-whatsapp" src="./Img/whatsapp (1).png" alt="logo whatsapp"> 
+        </a>
+
+        <form 
+            class="formulario-fale-conosco"
+            action="https://formcarry.com/s/P83NN_-HJ1J"
+            method="POST"
+            enctype="multipart/form-data">
+                  <input placeholder="Seu nome" type="text" name="Nome">
+                  <input placeholder="Seu telefone" type="tel" name="Telefone">
+                  <input placeholder="Seu email" type="email" name="email">
+                  <textarea placeholder="Digite aqui seu problema..." name="duvida"></textarea>
+            <button type="submit">SOLICITAR ORÇAMENTO</button>
+        </form>
+
+<body>
+
+    <script src="scripts.js"></script>
+
+</html>
+
